@@ -16,7 +16,8 @@ import { BrandComponent } from './components/headers-component/footerMenu/brand/
 import { BrandsComponent } from './components/brands.component';
 import { FuterComponent } from './components/futer.component';
 import { ProductsComponent } from './components/products.component';
-import { SliderComponent } from './components/slider.component';
+import { SliderComponent } from './components/slider/slider.component';
+
 
 
 

@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="block">
+        <div class="slider">
+            <div class="slider-line" #sliderLine>
+                <div *ngFor="let img of sliderImgs, let i = index">
+                    <img #img [src]="img" alt="">
+                </div>
+            </div>
+        </div>
+        <img class="slider-prev" src="assets/imgs/left.png" (click)="prev()">
+        <img class="slider-next" src="assets/imgs/right.png" (click)="next()">
+    </div>
+
+    <div class="showImg">
+        <img src="https://www.zigzag.am/media/mageplaza/bannerslider/banner/image/i/p/iphone-14_03.10_480x300_am.jpg">
+        <img src="https://www.zigzag.am/media/mageplaza/bannerslider/banner/image/l/e/lexon_480x300_am_2.jpg">
+        <!-- <a href="#">Տեսնել բոլորը</a> -->
+
+    </div>
+
+</div>
