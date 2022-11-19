@@ -3,17 +3,13 @@
         <nav class="footer-menu">
             <ul class="footer-menu__navBar">
                 <li *ngFor="let item of navBar">
-                    {{item}}
+                    <app-navbar [title]="item"></app-navbar>
                 </li>
             </ul>
 
-
-
             <div class="brands__img" *ngFor="let img of brandImgs">
-                <img [src]="img">
+                <app-brand [img]="img"></app-brand>
             </div>
-
-
         </nav>
     </div>
 </div>
