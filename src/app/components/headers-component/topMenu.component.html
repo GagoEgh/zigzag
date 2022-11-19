@@ -1,0 +1,31 @@
+<div class="wrap">
+    <div class="container">
+        <div class="topMenu ">
+            <ul class="topMenu__ul">
+                <li class="abautus">
+                    <a href="#">Մեր մասին</a>
+                    <ul>
+                        <li><a href="#">Ընկերության մասին</a></li>
+                        <li><a href="#">Աշխատանք</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Վաճառասրահներ</a></li>
+                <li><a href="#">Ծառայություններ</a></li>
+                <li><a href="#">Ակցիաներ</a></li>
+                <li><a href="#">Նվեր-քարտ</a></li>
+                <li><a href="#">Ապառիկ</a></li>
+            </ul>
+            <div class="signup">
+                <div class="open" (click)="open()">
+                    <img class="open__img" src="assets/imgs/zamok.png">
+                    <div class="open__text">մուտք</div>
+                </div>
+                <app-sign class="sign" *ngIf="isOpen"></app-sign>
+                <div class="signup__language">
+                    <img src="https://www.zigzag.am/static/version1666962451/frontend/Magento/zigzag/hy_AM/images/svg/am.svg"
+                        alt="ՀՅ" title="ՀՅ">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

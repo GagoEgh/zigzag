@@ -1,0 +1,19 @@
+<div class="wrap">
+    <div class="container">
+        <nav class="footer-menu">
+            <ul class="footer-menu__navBar">
+                <li *ngFor="let item of navBar">
+                    {{item}}
+                </li>
+            </ul>
+
+
+
+            <div class="brands__img" *ngFor="let img of brandImgs">
+                <img [src]="img">
+            </div>
+
+
+        </nav>
+    </div>
+</div>

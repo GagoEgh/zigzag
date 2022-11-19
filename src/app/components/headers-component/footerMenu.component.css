@@ -1,0 +1,36 @@
+.wrap{
+    background-color: #0d5182;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    /* height: 80px; */
+}
+
+.footer-menu__navBar{
+    list-style: none;
+    display: flex;
+}
+
+.footer-menu__navBar li{
+    max-width: 80px;
+    color: white;
+    font-size: 10px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.footer-menu__navBar :first-child{
+    background-color: #083657;
+    margin-left: -30px;
+    padding-top: 12px;
+}
+
+.brands__img{
+    align-self: center;
+}
+
+.brands__img img{
+    height: 30px;
+}

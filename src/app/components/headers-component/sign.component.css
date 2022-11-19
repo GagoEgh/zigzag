@@ -1,0 +1,44 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ccc;
+    width: 250px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.or{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    width: 100%;
+}
+
+.or::before, .or::after{
+    content: "";
+    display: block;
+    border-top: 1px solid #ccc;
+    flex: 1;
+    margin: 0 10px;
+    max-width: 50px;
+}
+
+.form__input{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+
+.open{
+    background-color: #0d5182;
+    padding: 10px;
+    border: none;
+    color: white;
+    width: 100px;
+}
