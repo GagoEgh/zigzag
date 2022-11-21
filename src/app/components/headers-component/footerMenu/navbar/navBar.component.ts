@@ -1,12 +1,18 @@
-import { Component, Input } from "@angular/core";
+import { Component, Input, OnInit } from "@angular/core";
+import { Menu } from "../menu.interface";
 
 @Component({
-    selector:'app-navbar',
-    templateUrl:'./navBar.component.html',
-    styleUrls:['./navBar.component.css']
+    selector: 'app-navbar',
+    templateUrl: './navBar.component.html',
+    styleUrls: ['./navBar.component.css']
 })
-export class NavBarComponent{
+export class NavBarComponent implements OnInit {
 
-    @Input('title')
-    title!:string
+     @Input('menu')
+     menu!:string;
+
+    ngOnInit(): void {
+        
+    }
+
 }

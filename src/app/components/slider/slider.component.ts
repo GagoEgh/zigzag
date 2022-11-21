@@ -24,7 +24,7 @@ export class SliderComponent implements OnInit {
         "https://www.zigzag.am/media/mageplaza/bannerslider/banner/image/9/6/960x400_arm_12.png"]
 
     ngOnInit(): void {
-        // ?????
+        // 
         // setInterval(() => {
         //     this.next()
         // }, 3000)
@@ -41,7 +41,7 @@ export class SliderComponent implements OnInit {
         slideElem.style.left = -this.offset + 'px';
     }
 
-    prev(): void {
+    prev(): void { 
         let imgWidh = this.img?.nativeElement?.clientWidth;
         this.offset -= imgWidh;
         let slideElem = this.sliderLine?.nativeElement;

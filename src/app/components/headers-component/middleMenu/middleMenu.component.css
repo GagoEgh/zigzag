@@ -1,7 +1,13 @@
+
+.box{
+    background-color: white;
+}
+
 .middle{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+ 
 }
 
 .logo{
@@ -19,7 +25,6 @@
 .middle__form{
     min-width: 500px;
     display: flex;
-    /* justify-content: space-between; */
     justify-content: space-around;
     align-items: center;
 }

@@ -12,10 +12,11 @@
     display: flex;
 }
 
-.footer-menu__navBar :first-child{
+.first{
+    padding:10px 5px 0 5px;
+    color: white;
     background-color: #083657;
-    margin-left: -30px;
-    margin-top: 15px;
+    font-size: 12px;
 }
 
 .brands__img{

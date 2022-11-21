@@ -2,8 +2,9 @@
     <div class="container">
         <nav class="footer-menu">
             <ul class="footer-menu__navBar">
+                <li class="first">ԿԱՏԱԼՈԳ</li>
                 <li *ngFor="let item of navBar">
-                    <app-navbar [title]="item"></app-navbar>
+                    <app-navbar [menu]="item"></app-navbar>
                 </li>
             </ul>
 

@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="slider">
+        <div class="slider-line" #picesSlider>
+            <section class="card" #picesCard *ngFor="let card of hotPicesBrands, let i=index">
+                <app-hotPices [card]="card"></app-hotPices>
+            </section>
+        </div> 
+    </div>
+    <img class="novelties-prev" src="assets/imgs/left.png" (click)="hotPicesPrev()" >
+    <img class="novelties-next" src="assets/imgs/right.png" (click)="hotPicesNext()">
+</div>
+
+<div class="container">
+    <div class="slider">
+        <div class="slider-line" #topSaleSlider>
+            <section class="card" #topSaleCard *ngFor="let card of topSaleBrands, let i=index">
+                <app-topSale [card]="card"></app-topSale>
+            </section>
+        </div> 
+    </div>
+    <img class="novelties-prev" src="assets/imgs/left.png" (click)="topSalePrev()">
+    <img class="novelties-next" src="assets/imgs/right.png" (click)="topSaleNext()">
+</div>
+
+<div class="container">
+    <div class="block">
+        <img src="https://www.zigzag.am/media/mageplaza/bannerslider/banner/image/k/-/k-array_940x170_am.jpg">
+    </div>
+   
+</div>
+<div class="container">
+    <div class="slider">
+        <div class="slider-line" #noveltiesSlider>
+            <section class="card" #noveltiesCard *ngFor="let card of noveltiesBrands, let i=index">
+                <app-novelties [card]="card"></app-novelties>
+            </section>
+        </div> 
+    </div>
+    <img class="novelties-prev" src="assets/imgs/left.png" (click)="noveltiesPrev()">
+    <img class="novelties-next" src="assets/imgs/right.png" (click)="noveltiesNext()">
+</div>

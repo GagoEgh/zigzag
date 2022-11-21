@@ -1,0 +1,18 @@
+<div class="block">
+    <img class="sticker" src="https://www.zigzag.am/media/stickers/hotprice_sticker_am.svg">
+    <img class="card__img" [src]="card.img">
+    <div class="name">
+        <small>{{card.name}}</small>
+    </div>
+    <div class="model">
+        <p class="model__p">{{card.model}}</p>
+        <img src="assets/imgs/heart.png" alt="like" (click)="like()"
+            [style.backgroundColor]="card.like?'#0e578b':'transparent'">
+    </div>
+    <p class="price">{{card.price}}֏</p>
+
+    <div class="btn">
+        <button class="buy">Գնել</button>
+        <button class="compare">Համեմատել</button>
+    </div>
+</div>
