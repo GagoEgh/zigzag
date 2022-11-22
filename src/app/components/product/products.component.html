@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="banner">
+        <section class="banner__section" *ngFor="let img of productBanner">
+            <img [src]="img">
+        </section>
+    </div>
+    <h2>Ապրանքանիշեր</h2>
+    <div class="slider">
+        <div class="slider-line" #slider>
+            <section class="card" #card *ngFor="let card of brands">
+                <app-card [card]="card"></app-card>
+            </section>
+        </div>
+    </div>
+    <img class="prev" src="assets/imgs/left.png"  (click)="prev()">
+    <img class="next" src="assets/imgs/right.png" (click)="next()">
+
+</div>

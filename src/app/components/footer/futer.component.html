@@ -1,0 +1,49 @@
+<footer class="footer">
+    <div class="container">
+        <form class="footer__form">
+            <input type="text" placeholder="Էլ․ հասցե">
+            <button>Բաժանորդագրվել</button>
+        </form>
+    </div>
+    <div class="footer__mid">
+        <div class="container">
+            <div class="footer__menu">
+                <div *ngFor="let card of footerCards">
+                    <app-footerMenu [card]="card"></app-footerMenu>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="footer__botom">
+            <div class="footer__logo">
+                <img
+                    src="https://www.zigzag.am/static/version1666962451/frontend/Magento/zigzag/hy_AM/images/svg/logo_white.svg">
+                <div class="footer-text">
+                    <p>
+                        ©«ԶԻԳԶԱԳ» ՍՊԸ, 2022.
+                        <span>Բոլոր իրավունքները պաշտպանված են։</span><br>
+                        Design and development
+                    </p>
+                </div>
+            </div>
+            <div class="footer__imgs">
+                <div class="footer__social">
+                    <div class="icon" *ngFor="let icon of icons">
+                        <img [src]="icon">
+                    </div>
+
+                </div>
+                <div class="footer__block">
+                    <div class="puyCard" *ngFor="let card of puyCards">
+                        <div>
+                            <img [src]="card">
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+</footer>

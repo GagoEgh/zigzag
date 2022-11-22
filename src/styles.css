@@ -10,7 +10,7 @@
     margin: 0 auto;
 }
 
-
+/* brand */
 .block{
     transition: box-shadow 0.5s;
 }
@@ -86,3 +86,30 @@
     background-color: white;
     border: 1px solid #0e578b;
 } 
+
+/* slider */
+
+.slider {
+    display: flex;
+    padding-top: 50px;
+    width: 1210px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px 5px rgb(0 0 0 / 10%);
+}
+
+.slider-line{
+    width: 1210px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all 1s;
+  
+}
+
+.card{
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    display: flex;
+    margin-left: 8px;
+    padding: 20px 30px;
+}

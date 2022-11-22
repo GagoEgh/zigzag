@@ -3,7 +3,7 @@
 }
 
 
-.slider {
+/* .slider {
     display: flex;
     padding-top: 50px;
     width: 1210px;
@@ -26,7 +26,7 @@
     display: flex;
     margin-left: 8px;
     padding: 20px 30px;
-}
+} */
 
 .novelties-prev{
     position:absolute;

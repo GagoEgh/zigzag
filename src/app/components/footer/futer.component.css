@@ -1,0 +1,84 @@
+.footer{
+    width: 100%;
+    background-color: #0d4e7d;
+    margin-top: 80px;
+}
+
+.footer__form{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer__form input{
+    width: 300px;
+    border: 1px solid transparent;
+    background: #fff;
+    color: #333;
+    padding: 10px;
+}
+
+.footer__form button{
+    border: 1px solid;
+    cursor: pointer;
+    color: #fff;
+    padding: 9px 10px;
+    min-width: 106px;
+    background: 0 0;
+    margin-left: 10px;
+    transition: all 0.7s;
+}
+
+.footer__form button:hover{
+   color: #0d4e7d;
+   background-color: white;
+}
+
+.footer__mid{
+    background-color: #075288;
+}
+
+.footer__menu{
+    margin-top: 10px;
+    display: flex;
+}
+/* ???? */
+.footer__botom{
+    padding: 20px 0 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo img{
+    width: 122px;
+    height: 34px;
+}
+
+.footer-text{
+    color: white;
+    font-size: 14px;
+}
+
+.footer__imgs{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__social{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.footer__block{
+    display: flex;
+    padding-top: 20px;
+}
+.icon img{
+ width: 20px;
+}
+
+
+
+.puyCard img{
+    width: 50px;
+}

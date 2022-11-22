@@ -25,6 +25,7 @@ export class BrandsComponent {
     hotPicesOffset = 0;
     noveltiesOffset = 0;
     topSaleOffset = 0;
+    
     noveltiesBrands: Brand[] = [
         {
             hotPices: false,

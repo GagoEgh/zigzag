@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right:  solid rgba(255,255,255,.1);
+    background-color: #075288;
+    height: 70px;
+    width: 80px;
+    transition: all 0.6s;
+    margin-left: 0;
+}
+
+.card:hover{
+    background-color: #0c67a9;
+}
+
+.card a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.card img{
+    height: 40px;
+    margin-bottom: 5px;
+    display: block;
+}
