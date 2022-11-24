@@ -6,13 +6,10 @@ import { Menu } from "../menu.interface";
     templateUrl: './navBar.component.html',
     styleUrls: ['./navBar.component.css']
 })
-export class NavBarComponent implements OnInit {
+export class NavBarComponent  {
 
      @Input('menu')
-     menu!:string;
+     menu!:Menu;
 
-    ngOnInit(): void {
-        
-    }
 
 }

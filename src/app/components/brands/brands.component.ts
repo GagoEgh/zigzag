@@ -25,7 +25,6 @@ export class BrandsComponent {
     hotPicesOffset = 0;
     noveltiesOffset = 0;
     topSaleOffset = 0;
-    
     noveltiesBrands: Brand[] = [
         {
             hotPices: false,
@@ -234,7 +233,8 @@ export class BrandsComponent {
     }
 
 
-    public hotPicesPrev(): void {
+    public hotPicesPrev(ev:any): void {
+        console.log(ev)
         if (this.hotPicesBrands.length === 4) { return }
         let cardWidh = this.picesCard?.nativeElement?.clientWidth;
         this.hotPicesOffset -= cardWidh;

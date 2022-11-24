@@ -1,5 +1,17 @@
+<nav class="navBar">
+    <div class="h1">
+        <h1>{{menu.title}}</h1>
+    </div>
+    <div class="navBar__block">
+        <li class="navBar__li" *ngFor="let sub of menu.subMenu">
+            <app-subMenu [subMenu]="sub"></app-subMenu>
+        </li>
+    </div>
 
-   <p class="title">{{menu}}</p>
+</nav>
+
+
+
 
 
 <!-- 

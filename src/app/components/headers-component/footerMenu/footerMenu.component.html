@@ -2,15 +2,27 @@
     <div class="container">
         <nav class="footer-menu">
             <ul class="footer-menu__navBar">
-                <li class="first">ԿԱՏԱԼՈԳ</li>
-                <li *ngFor="let item of navBar">
-                    <app-navbar [menu]="item"></app-navbar>
+
+                <li class="first">
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <div class="catalog">ԿԱՏԱԼՈԳ</div>
+                    <div class="arrow-up"></div>
+                </li>
+                <li class="li" *ngFor="let item of navBar">
+                    {{item.title}}
+                    <ul>
+                        <app-navbar [menu]="item"></app-navbar>
+                    </ul>
                 </li>
             </ul>
 
             <div class="brands__img" *ngFor="let img of brandImgs">
                 <app-brand [img]="img"></app-brand>
-                
+
             </div>
         </nav>
     </div>

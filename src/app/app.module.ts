@@ -11,6 +11,7 @@ import { MiddleMenuComponent } from './components/headers-component/middleMenu/m
 import { FooterMenuComponent } from './components/headers-component/footerMenu/footerMenu.component';
 import { BrandComponent } from './components/headers-component/footerMenu/brand/brand.component';
 import { NavBarComponent } from './components/headers-component/footerMenu/navbar/navBar.component';
+import { SubMenuComponent } from './components/headers-component/footerMenu/subMenu/subMenu.comonent';
 //slider
 import { SliderComponent } from './components/slider/slider.component';
 // brand
@@ -36,6 +37,7 @@ import { FuterMenuComponent } from './components/footer/footerMenu/footerMenu.co
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +47,7 @@ import { FuterMenuComponent } from './components/footer/footerMenu/footerMenu.co
     MiddleMenuComponent,
     FooterMenuComponent,
     NavBarComponent,
+    SubMenuComponent,
     BrandComponent,
     NoveltiesComponent,
     HotPicesComponent,
